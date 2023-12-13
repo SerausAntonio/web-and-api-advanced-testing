@@ -1,0 +1,18 @@
+{
+  "name": "lwandapicypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run --headed --browser chrome",
+    "cy:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  },
+  "dependencies": {
+    "fileupload": "^1.0.0"
+  }
+}
